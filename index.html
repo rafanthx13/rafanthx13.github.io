@@ -1,17 +1,109 @@
 <!DOCTYPE html>
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- <meta http-equiv="refresh" content="10">  -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/f5913b1737.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
 <body>
 
-	<h1 style="text-align:center;">Bem-vindo(a) a minha página!</h1>
+	<header>
+		<nav class="my-nav-bar navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="navbar-brand">Portifólio</div>
+      </nav>
+	</header>
 
-	<p style="text-align:center;">Olá, meu nome é Marcos Castro, eu sou professor na Udemy.</p>
+	<div class="jumbotron jumbotron-fluid">
+  	<div class="container">
+			<div class="mt-2" style="text-align: center;">
+				<img src="./imgs/my_foto.jpg" alt="avatar" class="img-circle mr-3" style="width:20%;border-radius: 50%;">
+				<p>Olá. Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
+			</div>
+	  </div>
+	</div>
 
-	<center>
-		<a href="https://www.udemy.com/user/marcoscastrodesouza/" target="_blank">
-			<img src="imagens/perfil.jpg">
+	<section id="knowlegds" class="jumbotron jumbotron-fluid">
+  	<div class="container">
+			<div class="row text-center">
+		    <div class="col-lg-3">
+					<i class="fas fa-laptop-code"></i>
+		      <h2>Front-End</h2>
+					<ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Vue.js</li>
+            <li>Angular.js</li>
+						<li>Bootstrap</li>
+          </ul>
+		    </div>
+		    <div class="col-lg-3">
+					<i class="fas fa-code"></i>
+		      <h2>Back-End</h2>
+					<ul>
+            <li>PHP</li>
+            <li>Java</li>
+						<li>Spring</li>
+						<li>TDD Junit</li>
+            <li>Node.js</li>
+            <li>Spring</li>
+            <li>C</li>
+          </ul>
+		    </div>
+		    <div class="col-lg-3">
+					<i class="fas fa-robot"></i>
+		      <h2>IA e ML</h2>
+					<ul>
+            <li>Data Analysys</li>
+						<li>Pandas</li>
+						<li>Scki-Learning</li>
+          </ul>
+		    </div>
+				<div class="col-lg-3">
+					<i class="fas fa-terminal"></i>
+		      <h2>Outros</h2>
+					<ul>
+            <li>SQL</li>
+            <li>Pentaho</li>
+            <li>Git</li>
+            <li>Jquery</li>
+            <li>Bootstrap</li>
+          </ul>
+		    </div>
+		  </div>
+	  </div>
+	</section>
+
+	<section id="projects">
+
+	</section>
+
+	<hr class="featurette-divider">
+
+	<footer class="text-center">
+		<p id="copyright">Copyright &copy; 2020 | Rafael Morais de Assis</p>
+		<a href="mailto:rafaassis15@gmail.com">
+			<i class="fas fa-envelope"></i>
 		</a>
-	</center>
+		<a href="https://github.com/rafanthx13">
+			<i class="fab fa-github"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/rafael-m-de-assis/">
+			<i class="fab fa-linkedin"></i>
+		</a>
+	</footer>
 
-<body>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+
 </html>
