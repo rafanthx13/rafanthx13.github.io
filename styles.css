@@ -14,18 +14,45 @@ ul {
   padding-left: 0;
 }
 
-i {
-		font-size: 2.0em;
-		padding: 15px 15px 15px 15px;
-		border-radius: 50px;
-    transition: all .3s;
+.ul-second {
+  font-size: small;
 }
 
-i:hover {
+i {
+	font-size: 2.0em;
+	padding: 15px 15px 15px 15px;
+	border-radius: 50px;
+  transition: all .3s;
+}
+
+.social-media-icon:hover {
 		background-color: #007bff;
 		color: white;
 }
 
 .jumbotron {
   background: #b4c8ff;
+}
+
+#my-photo {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #dee2e6;
+}
+
+.thumbnail {
+  width: 285px;
+  height: 185px;
+}
+
+.git-link {
+  font-size: large;
+  padding: 0px;
+  padding-right: 10px;  
+}
+
+.my-badge {
+  height: 20px;
+  margin-top: 5px;   
+  margin-left: 5px;   
 }

@@ -3,6 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <meta http-equiv="refresh" content="10">  -->
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -17,73 +18,126 @@
 
 	<header>
 		<nav class="my-nav-bar navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="navbar-brand">Portifólio</div>
-      </nav>
+			<div class="navbar-brand">Portifólio</div>
+		</nav>
 	</header>
 
-	<div class="jumbotron jumbotron-fluid">
-  	<div class="container">
-			<div class="mt-2" style="text-align: center;">
-				<img src="./imgs/my_foto.jpg" alt="avatar" class="img-circle mr-3" style="width:20%;border-radius: 50%;">
-				<p>Olá. Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
+	<div class="jumbotron jumbotron-fluid mb-5" style="padding-bottom: 10%;">
+		<div class="container">
+			<div class="mt-5 text-center mb-5">
+				<img id="my-photo" src="./imgs/my_foto.jpg" alt="avatar" class="img-circle img-responsive center-block">
+				<h1>Rafael Morais de Assis</h1>
+				<p>Olá. Sou umm Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
 			</div>
-	  </div>
+		</div>
 	</div>
 
-	<section id="knowlegds" class="jumbotron jumbotron-fluid">
-  	<div class="container">
+	<section id="skills" class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="text-center">
+				<h2>Habilidades e Conhecimentos</h2>	
+			</div>
 			<div class="row text-center">
-		    <div class="col-lg-3">
+				<div class="col-lg-3">
 					<i class="fas fa-laptop-code"></i>
-		      <h2>Front-End</h2>
+					<h2>Front-End</h2>
 					<ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>Vue.js</li>
-            <li>Angular.js</li>
-						<li>Bootstrap</li>
-          </ul>
-		    </div>
-		    <div class="col-lg-3">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JS</li>
+						<li>Vue.js</li>
+						<li>Angular.js</li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
 					<i class="fas fa-code"></i>
-		      <h2>Back-End</h2>
+					<h2>Back-End</h2>
 					<ul>
-            <li>PHP</li>
-            <li>Java</li>
-						<li>Spring</li>
-						<li>TDD Junit</li>
-            <li>Node.js</li>
-            <li>Spring</li>
-            <li>C</li>
-          </ul>
-		    </div>
-		    <div class="col-lg-3">
+						<li>PHP</li>
+						<li>Java</li>
+							<ul class="font-weight-light ul-second">
+								<li>Spring</li>
+								<li>TDD Junit</li>
+							</ul>
+						<li>Node.js</li>
+						<ul class="font-weight-light ul-second">
+							<li>TDD Jest</li>
+						</ul>
+						<li>C</li>
+					</ul>
+				</div>
+				<div class="col-lg-3">
 					<i class="fas fa-robot"></i>
-		      <h2>IA e ML</h2>
+					<h2>IA e ML</h2>
 					<ul>
-            <li>Data Analysys</li>
+						<li>Data Analysys</li>
 						<li>Pandas</li>
 						<li>Scki-Learning</li>
-          </ul>
-		    </div>
+					</ul>
+				</div>
 				<div class="col-lg-3">
 					<i class="fas fa-terminal"></i>
-		      <h2>Outros</h2>
+					<h2>Outros</h2>
 					<ul>
-            <li>SQL</li>
-            <li>Pentaho</li>
-            <li>Git</li>
-            <li>Jquery</li>
-            <li>Bootstrap</li>
-          </ul>
-		    </div>
-		  </div>
-	  </div>
+						<li>SQL</li>
+						<li>Pentaho</li>
+						<li>Git</li>
+						<li>Jquery</li>
+						<li>Bootstrap</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 
-	<section id="projects">
+	<section id="projects" class="container-fluid">
 
+		<div class="text-center">
+			<h2>Projetos</h2>	
+		</div>
+
+		<div class="row justify-content-center">
+
+			<div class="col-lg-3 mt-2">
+				<div class="card" style="width: 18rem;">
+				  <img src="imgs/projects/logPriceApp.png" class="card-img-top thumbnail rounded-sm" alt="...">
+				  <div class="card-body">
+				  	<div class="d-flex flex-row">
+				  	<a href="https://github.com/rafanthx13/log-price-comparator">
+				  		<i class="fab fa-github git-link"></i>	
+				  	</a>
+				  	<a href="https://price-log-app.herokuapp.com/">
+				  		<h5 class="card-title">LogPriceApp</h5>	
+				  	</a>
+				  	<span class="badge badge-secondary my-badge">Vue</span>
+				  	<span class="badge badge-secondary my-badge">Node</span>
+				  </div>
+				    <p class="card-text">Aplicativo para visualizar, monitorar e comparar Preços de produtos locais.</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 mt-2">
+				<div class="card" style="width: 18rem;">
+				  <img src="imgs/projects/library-api.png" class="card-img-top thumbnail rounded-sm" alt="...">
+				  <div class="card-body">
+				  	<div class="d-flex flex-row">
+				  		<a href="https://github.com/rafanthx13/library-api">
+				  		<i class="fab fa-github git-link"></i>	
+				  	</a>
+				  	<a href="https://library-my-api.herokuapp.com/swagger-ui.html">
+				  		<h5 class="card-title">library-api</h5>	
+				  	</a>
+				  	<span class="badge badge-secondary my-badge">Java</span>
+				  	<span class="badge badge-secondary my-badge">TDD</span>
+				  	</div>
+				  	
+				    <p class="card-text">API Rest Java com TDD.</p>
+				  </div>
+				</div>
+			</div>
+
+		</div>	
 	</section>
 
 	<hr class="featurette-divider">
@@ -91,13 +145,13 @@
 	<footer class="text-center">
 		<p id="copyright">Copyright &copy; 2020 | Rafael Morais de Assis</p>
 		<a href="mailto:rafaassis15@gmail.com">
-			<i class="fas fa-envelope"></i>
+			<i  class=" social-media-icon fas fa-envelope"></i>
 		</a>
 		<a href="https://github.com/rafanthx13">
-			<i class="fab fa-github"></i>
+			<i  class=" social-media-icon fab fa-github"></i>
 		</a>
 		<a href="https://www.linkedin.com/in/rafael-m-de-assis/">
-			<i class="fab fa-linkedin"></i>
+			<i  class=" social-media-icon fab fa-linkedin"></i>
 		</a>
 	</footer>
 
