@@ -51,11 +51,13 @@ i {
   padding-right: 10px;  
 }
 
+/*
 .my-badge {
   height: 20px;
   margin-top: 5px;   
   margin-left: 5px;   
 }
+*/
 
 @media screen and (max-width: 600px) {
   .project{
@@ -65,3 +67,36 @@ i {
   }
 }
 
+.card-title {
+    margin-bottom: .25rem;
+}
+
+.{
+  background-color: #3b5997;
+}
+
+.badge-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+/*
+facebook
+#3b5997
+
+twitter
+#00aced
+
+youtube
+background: red;
+*/
+
+/*
+--breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
