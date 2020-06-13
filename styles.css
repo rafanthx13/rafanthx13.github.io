@@ -7,6 +7,23 @@
   transition: transform .5s;
 }
 
+h1 {
+  font-family: 'Lato';
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#full-scren{
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
@@ -24,6 +41,17 @@ i {
 	border-radius: 50px;
   transition: all .3s;
 }
+
+.social-media-icon-top {
+  color: white;
+  border-style: solid;
+  background-color: unset;
+}
+
+.social-media-icon-top:hover {
+  background-color: #ffffff47;
+}
+
 
 .social-media-icon:hover {
 		background-color: #007bff;
@@ -48,14 +76,14 @@ i {
 .git-link {
   font-size: large;
   padding: 0px;
-  padding-right: 10px;  
+  padding-right: 10px;
 }
 
 /*
 .my-badge {
   height: 20px;
-  margin-top: 5px;   
-  margin-left: 5px;   
+  margin-top: 5px;
+  margin-left: 5px;
 }
 */
 
@@ -79,6 +107,18 @@ i {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+a-hoover:hover {
+  text-decoration: none;
+}
+
+footer > a {
+  width: 1px;
+}
+
+footer > a:hover {
+  text-decoration: unset;
 }
 
 
