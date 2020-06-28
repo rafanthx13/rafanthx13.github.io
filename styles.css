@@ -63,9 +63,12 @@ i {
 }
 
 #my-photo {
-  border-radius: 50%;
-  background-color: #fff;
-  border: 3px solid #dee2e6;
+  /* Fazer degradê em borda*/
+  background-image: linear-gradient(90deg, #f6cb9f, #697c8e);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  padding: 4px;
+  border-radius: 80vh;
 }
 
 .thumbnail {
@@ -90,6 +93,7 @@ i {
 @media screen and (max-width: 600px) {
   .project{
     width: 100%;
+
     text-align: -webkit-center;
     margin-top: 3rem!important;
   }
@@ -97,6 +101,10 @@ i {
 
 .card-title {
     margin-bottom: .25rem;
+}
+
+.card {
+  height: 380px !important;
 }
 
 .{
