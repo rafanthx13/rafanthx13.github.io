@@ -99,6 +99,15 @@ i {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .mobile-config{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+
+
 .card-title {
     margin-bottom: .25rem;
 }
