@@ -116,10 +116,6 @@ i {
   height: 350px !important;
 }
 
-.{
-  background-color: #3b5997;
-}
-
 .badge-content{
   display: flex;
   flex-direction: row;
