@@ -1,429 +1,331 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G3C5WCMRQL"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'G-G3C5WCMRQL');
-  </script>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <meta name="description" content="Portifólio de Rafael Morais de Assi, Estudante de Ciência da Computação">
-  <meta name="keywords" content="Personal, Portifolio, Project, Contact, Rafael Morais de Assis, Contato">
-  <meta name="author" content="Rafael Morais de Assis">
-  <title>Rafael Morais de Assis</title>
-
-  <script src="https://kit.fontawesome.com/f5913b1737.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rafael Morais de Assis</title>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon//apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon//favicon-16x16.png">
+	<link rel="manifest" href="imgs/favicon//site.webmanifest">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
 </head>
+<style>
+	html {
+		scroll-behavior: smooth;
+	}
 
-<body style="background-color: #f2f7fb;">
-  <header>
-    <nav class="my-nav-bar navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="navbar-brand">Portifólio</div>
-    </nav>
-  </header>
-  <!-- <img src="imgs/stars-1246590_640.jpg" id="fullscreen"> -->
-  <div class="jumbotron jumbotron-fluid mb-5" style="padding-bottom: 10%; background-image: url('imgs/jeremy-ricketts-FGvRZ-BeCKo-unsplash.webp')">
-    <div class="container">
-      <div class="mt-5 text-center mb-5">
-        <img id="my-photo" src="./imgs/my_foto.jpg" alt="avatar" class="img-circle img-responsive center-block">
-        <h1>Rafael Morais de Assis</h1>
-        <p>Olá. Sou um Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
-        <footer class="text-center">
-          <a href="mailto:rafaassis15@gmail.com">
-            <i class=" social-media-icon-top fas fa-envelope"></i>
-          </a>
-          <a href="https://github.com/rafanthx13">
-            <i class=" social-media-icon-top fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/rafael-m-de-assis/">
-            <i class=" social-media-icon-top fab fa-linkedin"></i>
-          </a>
-          <a href="https://www.kaggle.com/rafanthx13">
-            <i class="social-media-icon-top fab fa-kaggle" style="padding-right: 19px; padding-left: 19px;"></i>
-          </a>
-        </footer>
-      </div>
-    </div>
-  </div>
-  <section id="skills" class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <div class="text-center">
-        <h2>Habilidades e Conhecimentos</h2>
-      </div>
-      <div class="row text-center">
-        <div class="col-lg-3">
-          <i class="fas fa-laptop-code"></i>
-          <h2>Front-End</h2>
-          <ul>
-            <li>HTML/CSS</li>
-            <li>JS/TypeScript</li>
-            <li>Vue.js/Nuxt.js</li>
-            <li>Angular.js</li>
-            <!-- <li>React.js</li>
-            <li>React Native</li> -->
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <i class="fas fa-code"></i>
-          <h2>Back-End</h2>
-          <ul>
-            <li>C</li>
-            <li>PHP</li>
-            <li>Java</li>
-            <ul class="font-weight-light ul-second">
-              <li>Spring</li>
-            </ul>
-            <li>Node.js</li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <i class="fas fa-robot"></i>
-          <h2>IA, DS e ML</h2>
-          <ul>
-            <li>Python</li>
-            <ul class="font-weight-light ul-second">
-              <li>Jupyter Notebook</li>
-              <li>Pandas, Scikit-Learn</li>
-              <li>Seaborn, matplotlib, Bokeh</li>
-            </ul>
-            <!-- <li>Scikit-Learn</li> -->
-            <!-- <li>PyTorch</li> -->
-            <!-- <li>Geração de Gráficos</li> -->
-            <!-- <ul class="font-weight-light ul-second">
-              <li>Seaborn</li>
-              <li>Bokeh</li>
-              <li>matplot.lib</li>
-            </ul> -->
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <i class="fas fa-terminal"></i>
-          <h2>Outros</h2>
-          <ul>
-            <li>SQL</li>
-            <li>Pentaho PDI</li>
-            <li>Power BI</li>
-            <li>Git</li>
-            <li>Flutter</li>
-            <li>Testes</li>
-            <ul class="font-weight-light ul-second">
-              <li>TDD Java JUnit</li>
-              <li>TDD JS Jest</li>
-            </ul>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+	#my-photo {
+		/* Fazer degradê em borda*/
+		background-image: linear-gradient(90deg, #f6cb9f, #697c8e);
+		background-origin: border-box;
+		background-clip: padding-box, border-box;
+		padding: 4px;
+		border-radius: 80vh;
+	}
 
-  <section id="projects" class="container-fluid mobile-config" style="padding-right: 50px; padding-left: 150px; background-color: #e6edf1;padding-bottom: 1rem;">
+</style>
+<body>
+	<!-- HEADER -->
+	<header class="text-gray-600 body-font">
+		<div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+			<a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+				<img src="./imgs/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
+				<span class="ml-3 text-xl">Meu Portifólio</span>
+			</a>
+			<nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+				<a class="mr-5 hover:text-gray-900" href="#section1">Habilidades</a>
+				<a class="mr-5 hover:text-gray-900" href="#section2">Projetos</a>
+				<a class="mr-5 hover:text-gray-900" href="#section3">Contato</a>
+			</nav>
+		</div>
+	</header>
+	<!-- HERO -->
+	<section class="text-gray-600 body-font" style="background-image: url('imgs/sea.webp')"">
+		<div class="container mx-auto flex px-5 py-2 items-center justify-center flex-col">
+			<img id="my-photo" class="lg:w-1/4 md:w-2/6 w-4/6 mb-10 object-cover object-center rounded-full" alt="hero" src="./imgs/my_foto.jpg">
+			<div class="text-center lg:w-2/3 w-full">
+				<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Rafael Morais de Assis</h1>
+				<p class="mb-8 leading-relaxed">Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
+			</div>
+		</div>
+	</section>
+	<!-- MY HABILITES -->
+	<section class="text-gray-600 body-font" id="section1">
+		<div class="container px-5 py-12 mx-auto">
+			<div class="text-center mb-20">
+				<h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Minhas Habilidades</h1>
+				<div class="flex mt-6 justify-center">
+					<div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+				</div>
+			</div>
+			<div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+				<!-- FRONT END -->
+				<div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+					<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+							<path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+						</svg>
+					</div>
+					<div class="flex-grow">
+						<h2 class="text-gray-900 text-lg title-font font-medium mb-3">Front-End</h2>
+						<p class="leading-relaxed text-base">
+							<ul>
+								<li>HTML/CSS</li>
+								<li>JavaScript/TypeScript</li>
+								<li>Vue.JS/Nuext.JS</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<!-- BACK END -->
+				<div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+					<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+							<path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+						</svg>
+					</div>
+					<div class="flex-grow">
+						<h2 class="text-gray-900 text-lg title-font font-medium mb-3">Back-End</h2>
+						<p class="leading-relaxed text-base">
+							<ul>
+								<li>PHP/Laravel</li>
+								<li>Python/Django</li>
+								<li>Java/Spring</li>
+								<li>Node.JS</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<!-- Data Science -->
+				<div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+					<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+							<path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+						</svg>
+					</div>
+					<div class="flex-grow">
+						<h2 class="text-gray-900 text-lg title-font font-medium mb-3">Data Science</h2>
+						<p class="leading-relaxed text-base">
+							<ul>
+								<li>Python</li>
+								<li>Pytohn Libs:</li>
+								<ul>
+									<li>jupyter notebook</li>
+									<li>pandas, numpy, scikit-learn</li>
+									<li>seaborn, matplotlib, bokeh</li>
+								</ul>
+							</ul>
 
-    <div class="text-center">
-      <h2>Projetos</h2>
-    </div>
+						</p>
+					</div>
+				</div>
+				<!-- Others -->
+				<div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+					<div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+						<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+							<path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+						</svg>
+					</div>
+					<div class="flex-grow">
+						<h2 class="text-gray-900 text-lg title-font font-medium mb-3">Outros</h2>
+						<p class="leading-relaxed text-base">
+							<ul>
+								<li>Banco de Dados: SQL</li>
+								<li>ETL: Pentaho PDI</li>
+								<li>BI: Power Bi</li>
+								<li>Mobile: Flutter</li>
+								<li>Versonamento: Git</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- PROJECTS -->
+	<section class="text-gray-600 body-font" id="section2">
+		<div class="container px-5 py-12 mx-auto">
+			<div class="text-center mb-20">
+				<h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Projetos</h1>
+				<div class="flex mt-6 justify-center">
+					<div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+				</div>
+			</div>
+			<div class="flex flex-wrap -m-4">
+				<!-- VUE -->
+				<div class="p-4 md:w-1/3" v-for="project in projects">
+					<div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+						<img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="'./imgs/projects/'+ project.img_src" alt="blog">
+						<div class="p-6">
+							<h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 flex flex-wrap">
+								<span v-for="tag in project.tags">
+									{{ tag }} &nbsp;
+								</span>
+							</h2>
+							<span class="flex">
+								<a :href="project.git"><img src="./imgs/git-icon-black.svg" class="w-5 hover:opacity-20" /></a>
+								<a :href="project.link"><img src="./imgs/link-ext.svg" class="w-5 hover:opacity-20" /></a>
+							</span>
+							<h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ project.name }}</h1>
+							<p class="leading-relaxed mb-3">{{ project.desc }}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- CONTACT -->
+	<section class="text-gray-600 body-font relative" id="section3">
+		<!-- <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap"> -->
 
-    <div class="row justify-content-center">
+			<div class="text-center mb-12">
+				<h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Contato</h1>
+				<div class="flex mt-6 justify-center">
+					<div class="w-16 h-1 rounded-full bg-blue-300 inline-flex justify-center"></div>
+				</div>
+			</div>
 
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/logPriceApp.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/log-price-comparator">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://price-log-app.herokuapp.com/">
-                <h5 class="card-title">LogPriceApp</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-              <span class="badge badge-secondary ml-1">Vue.js</span>
-              <!-- <span class="badge badge-secondary ml-1">Vuetify (CSS)</span> -->
-            </div>
-            <p class="card-text">Aplicativo para visualizar, catalogar e comparar Preços de produtos locais.</p>
+			<div class="flex justify-center">
+				<a href="https://www.linkedin.com/in/rafael-m-de-assis/"><img src="./imgs/linkedin.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="https://www.kaggle.com/rafanthx13"><img src="./imgs/kaggle.png" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="https://github.com/rafanthx13"><img src="./imgs/github.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="mailto:rafaassis15@gmail.com"><img src="./imgs/gmail.svg" class="w-5 hover:opacity-20 w-10 mx-5 " /></a>
+			</div>
 
+			<div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
+				<div class="lg:h-96 md:h-64 lg:w-sreen md:w-screen bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+					<object width="100%" height="100%" frameborder="0" class="absolute inset-0" scrolling="no" marginheight="0" marginwidth="0" data="https://www.openstreetmap.org/export/embed.html?bbox=-40.64117431640626%2C-17.125042196260953%2C-38.53729248046876%2C-15.623036831528252&amp;layer=mapnik&amp;marker=-16.375485785675078%2C-39.5892333984375"></object>
+					<div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+						<div class="lg:w-1/2 px-6">
+							<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ENDEREÇO</h2>
+							<p class="mt-1">Eunápolis/Bahia/Brazil</p>
+						</div>
+						<div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+							<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+							<a class="text-indigo-500 leading-relaxed">rafaassis15@email.com</a>
+							<h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">TELEFONE</h2>
+							<p class="leading-relaxed">(34) 9 9316-6595</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+					<h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+					<div class="relative mb-4">
+						<label for="name" class="leading-7 text-sm text-gray-600">Nome</label>
+						<input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+					</div>
+					<div class="relative mb-4">
+						<label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+						<input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+					</div>
+					<div class="relative mb-4">
+						<label for="message" class="leading-7 text-sm text-gray-600">Mensagem</label>
+						<textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+					</div>
+					<button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+				</div> -->
+			</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="text-gray-600 body-font">
+		<div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+			<a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+				<img src="./imgs/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
+			</a>
+			<p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021  —
+				<a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Rafael Morais de Assis</a>
+			</p>
+			<!-- <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+				<a href="https://www.linkedin.com/in/rafael-m-de-assis/"><img src="./imgs/linkedin.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="https://www.kaggle.com/rafanthx13"><img src="./imgs/kaggle.png" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="https://github.com/rafanthx13"><img src="./imgs/github.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+				<a href="mailto:rafaassis15@gmail.com"><img src="./imgs/gmail.svg" class="w-5 hover:opacity-20 w-10 mx-5 " /></a>
+			</span> -->
+		</div>
+	</footer>
+	<script>
+		var data = { projects: [
+			{
+				name: 'LogPriceApp',
+				git: 'https://github.com/rafanthx13/log-price-comparator',
+				link: 'https://price-log-app.herokuapp.com/',
+				tags: ['WebPage', 'Vue.JS'],
+				img_src: 'logPriceApp.png',
+				desc: 'Aplicação Web para registro de produtos, seu preço e sua observar sua evoluçâo no tempo',
+			},
+			{
+				name: 'LogPriceServer',
+				git: 'https://github.com/rafanthx13/price-log-re-server',
+				link: 'https://library-my-api.herokuapp.com/swagger-ui.html',
+				tags: ['Node', 'API REST', 'Express', 'BDD Jest'],
+				img_src: 'logPriceServer.png',
+				desc: 'API Rest para ser consumida por LogPriceApp'
+			},
+			{
+				name: 'Portifolio de Projetos de DataScience da Kaggle',
+				git: 'https://github.com/rafanthx13/ds-portifolio',
+				link: 'https://github.com/rafanthx13/ds-portifolio',
+				tags: ['DataScience', 'Python', 'Kaggle', 'MachineLearning', 'EDA' ],
+				img_src: 'ds-portifolio.png',
+				desc: 'Projetso, Snipets de DataScience'
+			},
+			{
+				name: 'Avaliador de Comentários',
+				git: 'https://rafanthx13.github.io/comments-rating-app/',
+				link: 'https://rafanthx13.github.io/comments-rating-app/',
+				tags: ['WebPage', 'Angular.JS'],
+				img_src: 'comments-rating-app.png',
+				desc: 'Avaliar comentários como positivo ou negativos através de um modelo de Intelgencia Artificial'
+			},
+			{
+				name: 'Servidor do Avaliador de Comentários',
+				git: 'https://rafanthx13.github.io/comments-rating-app/',
+				link: '',
+				tags: ['Python', 'Flask', 'Pytorch', 'RNN-LSTM'],
+				img_src: 'comments-rating-server.png',
+				desc: 'Servidor em Flask que prover o acesso ao modelo de Machine Learning para classificar comentários'
+			},
+			{
+				name: 'Gerardor de Index de MarkDown',
+				git: 'https://github.com/rafanthx13/toc-generator',
+				link: 'https://rafanthx13.github.io/md-toc-generator/',
+				tags: ['WebPage'],
+				img_src: 'toc-generator.png',
+				desc: 'Gerador de Index (Table Of Contents) para arquivos MarkDown'
+			},
+			{
+				name: 'Library API',
+				git: 'https://github.com/rafanthx13/library-api',
+				link: 'https://library-my-api.herokuapp.com/swagger-ui.html',
+				tags: ['Java', 'API REST', 'Spring', 'TDD: JUnit'],
+				img_src: 'swagger-price-server.png',
+				desc: 'API REST simples para uma biblioteca'
+			},
+			{
+				name: 'Movue It',
+				git: 'https://github.com/rafanthx13/western-freedom',
+				link: 'https://price-log-app.herokuapp.com/',
+				tags: ['WebPage', 'Vue/Nuxt', 'TypeScript'],
+				img_src: 'movue-it.png',
+				desc: 'Em contrução'
+			},
+			{
+				name: 'W',
+				git: 'https://github.com/rafanthx13/western-freedom',
+				link: 'https://western-freedom.netlify.app/',
+				tags: ['WebPage', 'Vue', 'FireBase'],
+				img_src: 'western-freedom.png',
+				desc: 'Em contrução'
+			},
+		]};
 
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/logPriceServer.webp" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/price-log-re-server">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://library-my-api.herokuapp.com/swagger-ui.html">
-                <h5 class="card-title">LogPriceServer</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">Node</span>
-              <span class="badge badge-secondary ml-1">API REST</span>
-              <span class="badge badge-secondary ml-1">Express</span>
-              <span class="badge badge-secondary ml-1">BDD</span>
-              <span class="badge badge-secondary ml-1">Jest</span>
-            </div>
-            <p class="card-text">Exemplo de API-Rest Node com Express, implementando TDD com Jest</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ds-portifolio -->
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/ds-portifolio.png" class="card-img-top thumbnail rounded-sm" alt="..." >
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/ds-portifolio">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://github.com/rafanthx13/ds-portifolio"><h5 class="card-title">Portifolio de DataScience</h5></a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">DataScience</span>
-              <span class="badge badge-secondary ml-1">Kaggle</span>
-              <span class="badge badge-secondary ml-1">EDA</span>
-            </div>
-            <p class="card-text">Portifolio de Projetos de Data Science</p>
-          </div>
-        </div>
-      </div>
-
-
-
-      <!-- <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/recipeServer.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/recipe-server">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <h5 class="card-title">RecipeServer</h5>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">Java</span>
-              <span class="badge badge-secondary ml-1">Spring</span>
-              <span class="badge badge-secondary ml-1">API REST</span>
-            </div>
-            <p class="card-text">API Restful para gerenciar dados de RecipeApp (Incompleto..)</p>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/recipeApp.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/recipe-app">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://recipe-webpage-app.netlify.app/main">
-                <h5 class="card-title">RecipeApp</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-              <span class="badge badge-secondary ml-1">Vue.js</span>
-            </div>
-            <p class="card-text">Aplicação de catálogo de receitas (Em andamento)</p>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/nlw-ecoleta.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/nlw-ecoleta">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <h5 class="card-title">nlw-Ecoleta</h5>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">Node</span>
-              <span class="badge badge-secondary ml-1">ReactJS</span>
-              <span class="badge badge-secondary ml-1">React Native</span>
-            </div>
-            <p class="card-text">Projeto da Next Level Week da RocketSeat : Back, Front e Mobile (Em andamento)</p>
-          </div>
-        </div>
-      </div> -->
-
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/comments-rating-app.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/comments-rating-app">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://rafanthx13.github.io/comments-rating-app/"><h5 class="card-title">App Avaliador de comentários</h5></a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-              <span class="badge badge-secondary ml-1">Angular.js</span>
-              <!-- <span class="badge badge-secondary ml-1">Material Angular.js</span> -->
-            </div>
-            <p class="card-text">Página Web para utilizar o avaliador de comentários</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/comments-rating-server.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/comments-rating-server">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <h5 class="card-title">Server Avaliador de comentários</h5>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">Python</span>
-              <span class="badge badge-secondary ml-1">Flask</span>
-              <span class="badge badge-secondary ml-1">Pytorch</span>
-              <span class="badge badge-secondary ml-1">RNN-LSTM</span>
-            </div>
-            <p class="card-text">Server python-flask do Avaliador de comentários</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- toc-generator -->
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/toc-generator.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body text-wrap">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/toc-generator">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://rafanthx13.github.io/md-toc-generator/"><h5 class="card-title">Gerador de Index MD</h5></a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-            </div>
-            <p class="card-text">Gerador de 'Table Of Contents (TOC)' para arquivos Markdown</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/swagger-price-server.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/library-api">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://library-my-api.herokuapp.com/swagger-ui.html">
-                <h5 class="card-title">library-api</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">Java</span>
-              <span class="badge badge-secondary ml-1">API REST</span>
-              <span class="badge badge-secondary ml-1">Spring</span>
-              <span class="badge badge-secondary ml-1">TDD</span>
-              <span class="badge badge-secondary ml-1">JUnit</span>
-            </div>
-            <p class="card-text">Exemplo de API Rest Java + Spring, com TDD, de uma livraria.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Western Freedom -->
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/western-freedom.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/western-freedom">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://western-freedom.netlify.app/">
-                <h5 class="card-title">western-freedom</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-              <span class="badge badge-secondary ml-1">Vue</span>
-              <span class="badge badge-secondary ml-1">Firebase</span>
-            </div>
-            <p class="card-text">Em construção</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Western Freedom -->
-      <div class="col-lg-4 mt-2 project">
-        <div class="card" style="width: 18rem;">
-          <img src="imgs/projects/movue-it.png" class="card-img-top thumbnail rounded-sm" alt="...">
-          <div class="card-body">
-            <div class="d-flex flex-row">
-              <a href="https://github.com/rafanthx13/western-freedom">
-                <i class="fab fa-github git-link"></i>
-              </a>
-              <a href="https://western-freedom.netlify.app/">
-                <h5 class="card-title">Movue It</h5>
-              </a>
-            </div>
-            <div class="badge-content">
-              <span class="badge badge-secondary">WebPage</span>
-              <span class="badge badge-secondary ml-1">Vue/Nuxt</span>
-              <span class="badge badge-secondary ml-1">TypeScript</span>
-            </div>
-            <p class="card-text">Em construção</p>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-
-  </section>
-  <hr class="featurette-divider" style="margin-top: 0px;">
-  <footer class="text-center">
-    <p id="copyright">Desenvolvido por &#128640; Rafael Morais de Assis</p>
-    <a class="a-hoover" href="mailto:rafaassis15@gmail.com">
-      <i class=" social-media-icon fas fa-envelope"></i>
-    </a>
-    <a class="a-hoover" href="https://github.com/rafanthx13">
-      <i class=" social-media-icon fab fa-github"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/rafael-m-de-assis/">
-      <i class=" social-media-icon fab fa-linkedin"></i>
-    </a>
-    <a href="https://www.kaggle.com/rafanthx13">
-      <i class="social-media-icon fab fa-kaggle" style="padding-right: 19px; padding-left: 19px;"></i>
-    </a>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		new Vue({
+			el: '#section2',
+			data: data
+		});
+	</script>
 </body>
-
 </html>
