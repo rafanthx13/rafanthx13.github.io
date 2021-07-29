@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3C5WCMRQL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-G3C5WCMRQL');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="origin">
+    <meta name="description" content="Rafael Assis Portifolio">
+    <meta name="owner" content="Rafael Assis"/>
+    <meta name="theme-color" content="#73839b" >
+
+    <meta property="og:url" content="https://rafanthx13.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rafael Morais de Assis">
+    <meta property="og:description" content="Rafael Assis Portifolio">
+    <meta property="og:image" content="imgs/favicon/favicon-32x32.png">
+    <meta property="og:locale" content="en">
+
+    <title>Rafael Morais de Assis</title>
+
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon//favicon-16x16.png">
+    <!-- <link rel="manifest" href="imgs/favicon//site.webmanifest"> -->
+
+    <!-- Scripts -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+    <link rel="stylesheet" href="css/time-line.css">
+    <link rel="stylesheet" href="css/language-selector.css">
+
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #my-photo {
+        /* Fazer degradê em borda*/
+        background-image: linear-gradient(90deg, #f6cb9f, #697c8e);
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        padding: 4px;
+        border-radius: 80vh;
+    }
+
+</style>
+<body>
+    <!-- HEADER -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="./imgs/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
+                <span class="ml-3 text-xl">Meu Portifólio</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <button class="mr-5 bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded">
+                    <a href="./docs/Rafael-Morais-de-Assis-Currículo-Final.pdf">
+                        Donwload Currículo
+                    </a>
+                  </button>
+                <a class="mr-5 hover:text-gray-900" href="#section1">Habilidades</a>
+                <a class="mr-5 hover:text-gray-900" href="#section2">Projetos</a>
+                <a class="mr-5 hover:text-gray-900" href="#section3">Contato</a>
+                <div class="lang-menu">
+                    <div class="en selected-lang">
+                    </div>
+                    <ul>
+                        <li>
+                          <a href="./index.html" class="br">pt</a>
+                        </li>
+                        <li>
+                            <a href="#" class="en">en</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="de">ge</a>
+                        </li>
+                        <li>
+                            <a href="" class="fr">fr</a>
+                        </li> -->
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="text-gray-600 body-font" style="background-image: url('imgs/sea.webp')"">
+        <div class="container mx-auto flex px-5 py-2 items-center justify-center flex-col">
+            <img id="my-photo" class="lg:w-1/4 md:w-2/6 w-4/6 mb-10 object-cover object-center rounded-full" alt="hero" src="./imgs/my_foto.jpg">
+            <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-5xl text-5xl mb-4 font-medium text-gray-900">Rafael Morais de Assis</h1>
+                <p class="mb-8 leading-relaxed">Estudante Graduando de Computação e desenvolvedor Full-Stack e um entusiasta de Machine Learning.</p>
+                <!-- <div class="subtitle">
+                    I am
+                    <div class="typing-title">
+                        <p>a <strong>web developer.</strong></p>
+                        <p>a <strong>blogger.</strong></p>
+                        <p>a <strong>freelancer.</strong></p>
+                        <p>a <strong>photographer.</strong></p>
+                    </div>
+                    <span class="typed-title"></span>
+                </div> -->
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+    <!-- MY HABILITES -->
+    <section class="text-gray-600 body-font" id="section1">
+        <div class="container px-5 py-12 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Minhas Habilidades</h1>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-around items-start sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0">
+                <!-- FRONT END -->
+                <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-2xl title-font font-medium mb-3">Front-End</h2>
+                        <p class="leading-relaxed">
+                            <ul class="text-lg">
+                                <li>HTML/CSS</li>
+                                <li>JavaScript/TypeScript</li>
+                                <li>Vue.JS/Nuxt.JS</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- BACK END -->
+                <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-2xl title-font font-medium mb-3">Back-End</h2>
+                        <p class="leading-relaxed">
+                            <ul class="text-lg">
+                                <li>PHP/Laravel</li>
+                                <li>Python/Django</li>
+                                <li>Java/Spring</li>
+                                <li>Node.JS/Express</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- Data Science -->
+                <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-2xl title-font font-medium mb-3">Data Science</h2>
+                        <p class="leading-relaxed text-xl">
+                            <ul class="text-lg">
+                                <li>Python e suas Libs:</li>
+                                <ul>
+                                    <li>jupyter notebook</li>
+                                    <li>pandas, numpy, scikit-learn</li>
+                                    <li>seaborn, matplotlib, bokeh</li>
+                                </ul>
+                            </ul>
+
+                        </p>
+                    </div>
+                </div>
+                <!-- Others -->
+                <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+                    <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                            <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-gray-900 text-2xl title-font font-medium mb-3">Outros</h2>
+                        <p class="leading-relaxed text-xl">
+                            <ul class="text-lg">
+                                <li>Banco de Dados: SQL</li>
+                                <li>ETL: Pentaho PDI</li>
+                                <li>BI: Power BI</li>
+                                <li>Mobile: Flutter</li>
+                                <li>Versionamento: Git</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font" id="section1">
+      <div class="container px-5 py-12 mx-auto">
+        <div class="text-center mb-10">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Educação</h1>
+            <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+            </div>
+        </div>
+        <div class="cd-timeline">
+          <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2011-2014</div>
+                <div class="name">Ensino Médio - IFBA - Campus Eunápolis</div>
+                <div class="category">Eunápolis - BA</div>
+                <p>
+                  Ensino médio integrado ao técnico em informática
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2015-2021</div>
+                <div class="name">UFU</div>
+                <div class="category">Uberlândia - MG</div>
+                <p>
+                  Bacharel em Ciência da Computação
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2004-2009</div>
+                <div class="name">Abc Inc.</div>
+                <div class="category">Senior Developer</div>
+                <p>
+                  Ubique maluisset vel te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire suavitate has, ei quodsi
+                  tacimates sapientem sed, pri zril ubique ut. Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent
+                  mediocritatem an, cule dicta iriure at.
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 body-font" id="section1">
+      <div class="container px-5 py-12 mx-auto">
+        <div class="text-center mb-10">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Experiência</h1>
+            <div class="flex mt-6 justify-center">
+                <div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+            </div>
+        </div>
+        <div class="cd-timeline">
+          <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2017-2019</div>
+                <div class="name">Neppo</div>
+                <div class="category">Uberlândia - MG</div>
+                <p>
+                  Estagiário em TI
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2015-2021</div>
+                <div class="name">UFU</div>
+                <div class="category">Uberlândia - MG</div>
+                <p>
+                  Bacharel em Ciência da Computação
+                </p>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="cd-timeline-block animated">
+            <div class="cd-timeline-point">
+              <i class="icon ion ion-ios-checkmark-empty"></i>
+            </div>
+            <div class="cd-timeline-content">
+              <div class="content-box">
+                <div class="date">2004-2009</div>
+                <div class="name">Abc Inc.</div>
+                <div class="category">Senior Developer</div>
+                <p>
+                  Ubique maluisset vel te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire suavitate has, ei quodsi
+                  tacimates sapientem sed, pri zril ubique ut. Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent
+                  mediocritatem an, cule dicta iriure at.
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="text-gray-600 body-font" id="section2">
+        <div class="container px-5 py-12 mx-auto">
+            <div class="text-center mb-20">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Projetos</h1>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-blue-300 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <!-- VUE -->
+                <div class="p-4 md:w-1/3" v-for="project in projects">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="'./imgs/projects/'+ project.img_src" alt="blog">
+                        <div class="p-6">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 flex flex-wrap">
+                                <span v-for="tag in project.tags">
+                                    {{ tag }} &nbsp;
+                                </span>
+                            </h2>
+                            <span class="flex">
+                                <a :href="project.git"><img src="./imgs/git-icon-black.svg" class="w-5 hover:opacity-20" /></a>
+                                <a :href="project.link"><img src="./imgs/link-ext.svg" class="w-5 hover:opacity-20" /></a>
+                            </span>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ project.name }}</h1>
+                            <p class="leading-relaxed mb-3">{{ project.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="text-gray-600 body-font relative" id="section3">
+
+            <div class="text-center mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Contato</h1>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-blue-300 inline-flex justify-center"></div>
+                </div>
+            </div>
+
+            <div class="flex justify-center">
+                <a href="https://www.linkedin.com/in/rafael-m-de-assis/"><img src="./imgs/linkedin.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+                <a href="https://www.kaggle.com/rafanthx13"><img src="./imgs/kaggle.png" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+                <a href="https://github.com/rafanthx13"><img src="./imgs/github.svg" class="w-5 hover:opacity-20 w-10 mx-5" /></a>
+                <a href="mailto:rafaassis15@gmail.com"><img src="./imgs/gmail.svg" class="w-5 hover:opacity-20 w-10 mx-5 " /></a>
+            </div>
+
+            <!-- ADRES IN MOBILE -->
+            <div class="bg-white relative py-6 rounded shadow-lg m-auto visible md:hidden w-3/4 sm:w-1/2 ">
+                <div class="px-6 flex flex-col flex-wrap justify-around">
+                    <div>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">ENDEREÇO</h2>
+                        <p class="leading-relaxed">Eunápolis/Bahia/Brazil</p>
+                    </div>
+                    <div>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">EMAIL</h2>
+                        <a class="text-indigo-500 leading-relaxed">rafaassis15@email.com</a>
+                    </div>
+                    <div>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">TELEFONE</h2>
+                        <p class="leading-relaxed">(34) 9 9316-6595</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div class="lg:h-96 md:h-64 lg:w-sreen md:w-screen bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <object width="100%" height="100%" frameborder="0" class="absolute inset-0" scrolling="no" marginheight="0" marginwidth="0" data="https://www.openstreetmap.org/export/embed.html?bbox=-40.64117431640626%2C-17.125042196260953%2C-38.53729248046876%2C-15.623036831528252&amp;layer=mapnik&amp;marker=-16.375485785675078%2C-39.5892333984375"></object>
+
+                    <!-- ADRESS IN DESKTOP hidden md:block -->
+                    <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md invisible md:visible">
+                        <div class="lg:w-1/2 px-6">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ENDEREÇO</h2>
+                            <p class="mt-1">Eunápolis/Bahia/Brazil</p>
+                        </div>
+                        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                            <a class="text-indigo-500 leading-relaxed">rafaassis15@email.com</a>
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">TELEFONE</h2>
+                            <p class="leading-relaxed">(34) 9 9316-6595</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <!-- FOOTER -->
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <img src="./imgs/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021  —
+                <p class="text-gray-600 ml-1">Rafael Morais de Assis</p>
+            </p>
+        </div>
+    </footer>
+    <script>
+        var data = { projects: [
+            {
+                name: 'LogPriceApp',
+                git: 'https://github.com/rafanthx13/log-price-comparator',
+                link: 'https://price-log-app.herokuapp.com/',
+                tags: ['WebPage', 'Vue.JS'],
+                img_src: 'logPriceApp.png',
+                desc: 'Aplicação Web para registro de produtos, seu preço e sua observar sua evolução no tempo',
+            },
+            {
+                name: 'LogPriceServer',
+                git: 'https://github.com/rafanthx13/price-log-re-server',
+                link: 'https://library-my-api.herokuapp.com/swagger-ui.html',
+                tags: ['Node', 'API REST', 'Express', 'BDD Jest'],
+                img_src: 'logPriceServer.png',
+                desc: 'API Rest para ser consumida por LogPriceApp'
+            },
+            {
+                name: 'Portifolio de Projetos de DataScience da Kaggle',
+                git: 'https://github.com/rafanthx13/ds-portifolio',
+                link: 'https://github.com/rafanthx13/ds-portifolio',
+                tags: ['DataScience', 'Python', 'Kaggle', 'MachineLearning', 'EDA' ],
+                img_src: 'ds-portifolio.png',
+                desc: 'Snippets de Data Science e Projetos da Kaggle '
+            },
+            {
+                name: 'Avaliador de Comentários',
+                git: 'https://rafanthx13.github.io/comments-rating-app/',
+                link: 'https://rafanthx13.github.io/comments-rating-app/',
+                tags: ['WebPage', 'Angular.JS'],
+                img_src: 'comments-rating-app.png',
+                desc: 'Avaliar comentários como positivo ou negativos através de um modelo de Intelgencia Artificial'
+            },
+            {
+                name: 'Servidor do Avaliador de Comentários',
+                git: 'https://rafanthx13.github.io/comments-rating-app/',
+                link: '',
+                tags: ['Python', 'Flask', 'Pytorch', 'RNN-LSTM'],
+                img_src: 'comments-rating-server.png',
+                desc: 'Servidor Flask para prover o acesso ao modelo de Machine Learning para classificar comentários'
+            },
+            {
+                name: 'Gerardor de Index de MarkDown',
+                git: 'https://github.com/rafanthx13/toc-generator',
+                link: 'https://rafanthx13.github.io/md-toc-generator/',
+                tags: ['WebPage'],
+                img_src: 'toc-generator.png',
+                desc: 'Gerador de Index (Table Of Contents) para arquivos MarkDown'
+            },
+            {
+                name: 'Library API',
+                git: 'https://github.com/rafanthx13/library-api',
+                link: 'https://library-my-api.herokuapp.com/swagger-ui.html',
+                tags: ['Java', 'API REST', 'Spring', 'TDD: JUnit'],
+                img_src: 'swagger-price-server.png',
+                desc: 'API REST simples para um sistema de biblioteca'
+            },
+            {
+                name: 'Movue It',
+                git: 'https://github.com/rafanthx13/western-freedom',
+                link: 'https://price-log-app.herokuapp.com/',
+                tags: ['WebPage', 'Vue/Nuxt', 'TypeScript'],
+                img_src: 'movue-it.png',
+                desc: 'Aplicação de teste usando Nuxt e TypeScript'
+            },
+            {
+                name: 'Archive Person App',
+                git: 'https://github.com/rafanthx13/western-freedom',
+                link: 'https://western-freedom.netlify.app/',
+                tags: ['WebPage', 'Vue'],
+                img_src: 'western-freedom.png',
+                desc: 'Aplicação para atrelar Notícias à Pessoas'
+            },
+            {
+                name: 'Archive Person API',
+                git: 'https://github.com/rafanthx13/archive-person-api',
+                link: 'https://archive-person-api.herokuapp.com/',
+                tags: ['API REST', 'Django', 'Python'],
+                img_src: 'django-rest-api.png',
+                desc: 'API Rest para aplicação "Archive Person App"'
+            },
+            {
+                name: 'Projetos de Web Pages',
+                git: 'https://github.com/rafanthx13/web-page-training',
+                link: 'https://rafanthx13.github.io/web-page-training/',
+                img_src: 'web-pages-project.png',
+                tags: ['WebPage', 'Design', 'CSS'],
+                desc: 'Reprodução de Páginas Web. Treinamento de CSS e Design'
+            }
+        ]};
+
+        new Vue({
+            el: '#section2',
+            data: data
+        });
+    </script>
+    <!-- <script src="js/jquery.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script> -->
+</body>
+</html>

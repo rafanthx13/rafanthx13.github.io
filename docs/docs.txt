@@ -24,3 +24,8 @@ https://heroicons.com/
 
 
 https://freeicons.io/filter/popular/all/link
+
+language
++ Bandeiras: https://www.countryflags.io/
++ Ajuste de opacity: https://www4.lunapic.com/editor/?action=alpha-transparency
++ language selector: youtube https://www.youtube.com/watch?v=ByraB2uMAiM&ab_channel=BlueBits
