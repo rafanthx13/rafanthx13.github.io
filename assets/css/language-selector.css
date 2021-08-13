@@ -24,7 +24,7 @@
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('./../imgs/language/en.png');
+    background-image: url('../images/languages-icons/en.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -34,7 +34,7 @@
   display: inline-block;
   width: 32px;
   height: 32px;
-  background-image: url('./../imgs/language/pt.png');
+  background-image: url('../images/languages-icons/pt.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -46,9 +46,9 @@
     background-color: #fff;
     border: 1px solid #f8f8f8;
     position: absolute;
-    top: 45px;
-    right: 0px;
-    width: 125px;
+    /* top: 45px; */ /* DEIXA MAIS EMCIMA */
+    right: 15px;
+    width: 100px;
     border-radius: 5px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     /* opacity: 0.5; */
@@ -99,8 +99,6 @@
 .de:before {
     background-image: url(https://www.countryflags.io/de/flat/32.png);
 }
-
-
 
 
 .lang-menu:hover ul {

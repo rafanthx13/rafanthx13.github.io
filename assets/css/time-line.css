@@ -69,7 +69,7 @@
 	top: 19px;
 	left: auto;
 	right: 100%;
-	background: url(../images/sh_lt.png) no-repeat;
+	background: url(../images/icons/sh_lt.png) no-repeat;
 }
 
 .cd-timeline .cd-timeline-block:nth-child(even) .cd-timeline-content .date {
@@ -158,7 +158,7 @@
 	height: 16px;
 	width: 9px;
 	z-index: 1;
-	background: url(../images/sh_rt.png) no-repeat;
+	background: url(../images/icons/sh_rt.png) no-repeat;
 }
 
 @media (max-width: 720px) {

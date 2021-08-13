@@ -1,0 +1,137 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Rafael Morais de Assis Portifolio
+    Description: Multipurpose Landing Page HTML Template
+    Author: Rafael Morais de Assis
+    Author URI: https://rafaelmassis.com.br
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    >>> TABLE OF CONTENTS:
+    =======================
+
+    01. Common/Base/Default Tag Style
+    02. Images CSS
+    03. SVG Divider (Wave from Elementor)
+
+-----------------------------------------------------------------------------------*/
+/* 01. Common/Base/Default Tag Style */
+
+/* Podmeos usar os font-weight: 400 (default), 600(tailwind-font-semi-bold) e 800 (tailwind-font-extrabold) */
+/* E Roboto para texto corrido */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Roboto&display=swap');
+
+
+/* #f6cb9f, #697c8 */
+
+:root {
+  --dark-ocean-color: #697c8e;
+  --fav-icon-color: ; 
+  --light-sun-color: #f6cb9f;
+
+  
+}
+
+body{
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* H2 */
+
+h2 {
+  font-size: 30px;
+  line-height: 2.25rem;
+  font-weight: 600;
+}
+
+.divider-h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  
+}
+
+.divider-h2 div {
+  width: 4rem;
+  height: 0.25rem;
+  display: inline-flex;
+  border-radius: 100px;
+}
+
+/* 02. Images CSS */
+#my-photo {
+  /* Fazer degradê em borda*/
+  background-image: linear-gradient(90deg, #f6cb9f, #697c8e);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  padding: 4px;
+  border-radius: 80vh;
+}
+
+.image-hero {
+	background-image: url("./../images/sea.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* TEST */
+	/* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+	z-index: 1;
+	position: relative;
+	box-sizing: border-box;
+	height: 115vh; /* Tem que deixar mais para pegar o shape fora do full-screen */
+}
+
+/* 03. SVG Divider (Wave from Elementor) */
+
+.elementor-shape-bottom {
+  bottom: -1px;
+	position: absolute;
+	width: 100%;
+}
+
+.elementor-shape-bottom svg {
+	fill: white;
+	width: 100%;
+	height: 70px;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+/* Nav-list */
+
+.nav-list li {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	color: #ffffff;
+	font-weight: 600;
+	transition: all .2s linear;
+	cursor: pointer;
+}
+
+.nav-list li:hover {
+	color: var(--light-sun-color);
+	transition: all .2s linear;
+}
+
+/* Curriculum Button */
+
+.curriculum-button {
+  color: white;
+  /* border-color: var(--light-sun-color);
+  border-width: 1px; */
+}
+
+.curriculum-button:hover {
+  background-color: var(--dark-ocean-color);
+  border-color: var(--light-sun-color);
+  color: var(--light-sun-color);
+  border-color: var(--light-sun-color);
+  transition: all .1s linear;
+}
