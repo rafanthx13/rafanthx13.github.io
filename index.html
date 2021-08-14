@@ -2,7 +2,8 @@
 <html lang="pt-PT">
 
 <head>
-  <!--============ SEO ============-->
+
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3C5WCMRQL"></script>
   <script>
@@ -11,28 +12,70 @@
     gtag('js', new Date());
     gtag('config', 'G-G3C5WCMRQL');
   </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="referrer" content="origin">
-  <meta name="description" content="Rafael Assis Portifolio">
-  <meta name="owner" content="Rafael Assis" />
+  <title>Rafael Morais de Assis</title>
   <meta name="theme-color" content="#73839b">
 
-  <!--============ PAGE LINKED ============-->
+  <!--============ SEO ============-->
+  <meta name="author" content="Rafael Morais de Assis">
+  <meta name="keywords" content="Rafael Morais de Assis, Eunápolis, Freelancer"/>
+  <meta name="description" content="Rafael Assis Portifolio">
+
+  <link rel="canonical" href="https://siteonepage.com.br/" />
+
+  <link rel="alternate" href="" hreflang="pt-br" />
+  <meta name="robots" content="index, follow">
+
+  <meta name="referrer" content="origin">
+  <meta name="owner" content="Rafael Assis" />
+
+  <!-- BUSSINESS -->
+  <meta property="business:contact_data:country_name" content="Brasil" />
+<meta property="business:contact_data:website" content="https://rafanthx13.github.io/" />
+<meta property="business:contact_data:email" content="rafaassis15@gmail.com" />
+<meta property="business:contact_data:phone_number" content="(34) 99316-6595" />
+
+  <!--============ OG ============-->
   <meta property="og:url" content="https://rafanthx13.github.io/">
-  <meta property="og:type" content="website">
   <meta property="og:title" content="Rafael Morais de Assis">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/my_foto.jpg">
   <meta property="og:description" content="Rafael Assis Portifolio">
-  <meta property="og:image" content="assets/images/favicon/favicon-32x32.png">
   <meta property="og:locale" content="pt-br">
 
-  <title>Rafael Morais de Assis</title>
+  <!--============ TWITTER ============-->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" content="Rafael Morais de Assis"/>
+  <meta name="twitter:title" content="Rafael Morais de Assis" />
+  <meta name="twitter:image" content="assets/images/my_foto.jpg" />
+  <meta name="twitter:domain" content="rafanthx13.github.io" />
+
+  <!-- GEO PLACE -->
+  <meta name="geo.placename" content="Eunápolis" />
+  <meta name="geo.region" content="BR" />
 
   <!--============ FAV ICONS ============-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon//apple-touch-icon.png">
+
+  <!-- Generic Favicons -->
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+
+  <!-- Android -->
+  <link rel="shortcut icon" href="assets/images/favicon/favicon-32x32.png" />
+
+  <!-- iOS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+
+  <!-- Windows 8 IE 10-->
+  <meta name="application-name" content="RafaelMoraisDeAssis"/>
+  <meta name="msapplication-TileColor" content="#73839b">
+  <meta name="msapplication-TileImage" content="assets/images/favicon/favicon-144.png">
+
+  <!-- Windows 8.1 + IE11 and above -->
+  <meta name="msapplication-config" content="assets/images/favicon/apple-touch-icon.png" />
 
   <!--============ CSS SRIPTS ============-->
   <!-- TAILWIND DEV -->
@@ -41,33 +84,41 @@
   <!-- <link rel="stylesheet" href="assets/css/my-tailwind.css"> -->
 
   <link rel="stylesheet" href="assets/css/my-style.css">
+
   <link rel="stylesheet" href="assets/css/time-line.css">
   <link rel="stylesheet" href="assets/css/language-selector.css">
-  
+  <link rel="stylesheet" href="assets/css/hamburguer.css">
 
 </head>
 
 <body>
 
+  <!--============ LOADER ============-->
+  <div id="loader-overlay">
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+  </div>
+
   <!--============ IMAGE BACKGROUND HOME ============-->
-  <div class="w-full min-h-screen image-hero">
+  <div class="w-full min-h-screen image-hero" >
 
     <!--============ HEADER ============-->
-    <header class="text-gray-600">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <header>
+      <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
+        <a class="flex items-center mb-4 font-medium md:mb-0">
           <img src="./assets/images/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
         </a>
 
         <!-- NAV -->
-        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold">
-          <ul class="flex justify-center nav-list">
-            <li><a class="mr-5" href="#section1">Habilidades</a></li>
-            <li><a class="mr-5" href="#section2">Projetos</a></li>
-            <li><a class="mr-5" href="#section3">Contato</a></li>
+        <nav class="flex-col flex-wrap items-center justify-center hidden text-base font-semibold lg:flex-row md:ml-auto">
+          <ul class="flex flex-col items-center justify-center lg:flex-row nav-list">
+            <li><a class="m-auto lg:mr-5" href="#section1">Habilidades</a></li>
+            <li><a class="m-auto lg:mr-5" href="#section2">Projetos</a></li>
+            <li><a class="m-auto lg:mr-5" href="#section3">Contato</a></li>
           </ul>
           <button
-            class="mr-5 font-semibold  py-2 px-4 rounded curriculum-button">
+            class="px-4 py-2 m-auto font-semibold rounded lg:mr-5 curriculum-button">
             <a href="./assets/curriculum/Rafael-Morais-de-Assis-Curriculo-PT-BR.pdf">
               Donwload Currículo
             </a>
@@ -76,7 +127,7 @@
 
           <!-- LANGUAGES -->
           <div class="lang-menu">
-            <div class="pt selected-lang">
+            <div class="justify-center pt selected-lang lg:justify-start">
             </div>
             <ul>
               <li><a href="#" class="br">pt</a></li>
@@ -85,17 +136,71 @@
           </div>
 
         </nav>
+
+        <!-- NAV MOBILE -->
+        <nav>
+          <header>
+            <div class="top-menu">
+              <ul>
+                <li class="active">
+                  <a class="btn_animated" href="#home">
+                    <span class="circle" style="text-align: center; text-align: -webkit-center;">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-10" viewBox="0 0 20 20" fill="white">
+                        <path style="height: 57px;" fill-rule="evenodd" d="M5.293 7.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L6.707 7.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#about-me"><span class="circle">Sobre Mim</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#skills"><span class="circle">Habilidades</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#education"><span class="circle">Educação</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#experience"><span class="circle">Experiência</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#projects"><span class="circle">Projetos</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#pricing"><span class="circle">Freelancer</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="#contact"><span class="circle">Contato</span></a>
+                </li>
+                <li>
+                  <a target="_blank" href="./assets/curriculum/Rafael-Morais-de-Assis-Curriculo-PT-BR.pdf"><span class="circle" style="border-radius: 90px;
+                    border-width: 1px;
+                    margin-left: 10px;">Donwload Currículo</span></a>
+                </li>
+                <li>
+                  <a class="btn_animated" href="./pages/index-en.html">
+                    <span class="circle">
+                      <span class="nav-mobile en">en</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <a href="#" class="menu-btn"><span></span></a>
+            </div>
+          </header>
+        </nav>
+
       </div>
     </header>
 
     <!--============ HERO ============-->
-    <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-2 items-center justify-center flex-col">
-        <img id="my-photo" class="lg:w-1/4 md:w-2/6 w-4/6 mb-10 object-cover object-center rounded-full" alt="hero"
-          src="assets/images//my_foto.jpg" />
-        <div class="text-center lg:w-2/3 w-full">
-          <h1 class="title-font sm:text-5xl text-5xl mb-4 text-gray-900 font-extrabold">Rafael Morais de Assis</h1>
-          
+    <section id="home">
+      <div class="container flex flex-col items-center justify-center px-5 py-2 mx-auto">
+        <img id="my-photo" class="object-cover object-center w-4/6 mb-10 rounded-full lg:w-1/4 md:w-2/6" alt="hero"
+          src="assets/images/my_foto.jpg" />
+        <div class="w-full text-center lg:w-2/3">
+          <h1 class="mb-4 text-5xl font-extrabold text-gray-900 sm:text-5xl">Rafael Morais de Assis</h1>
+
         </div>
       </div>
     </section>
@@ -111,12 +216,13 @@
 
   </div>
 
-  <section>
+  <!-- ABOUT ME -->
+  <section id="about-me">
 
-    <div class="text-center mb-20">
-      <h2 class="text-gray-900 mb-4">Sobre Mim</h2>
+    <div class="my-10 text-center">
+      <h2 class="mb-4 text-gray-900">Sobre Mim</h2>
       <div class="divider-h2">
-        <div class="bg-blue-300"></div>
+        <div></div>
       </div>
     </div>
 
@@ -128,28 +234,29 @@
   </section>
 
   <!-- MY HABILITES -->
-  <section class="text-gray-600" id="section1">
+  <section id="skills">
     <div class="container px-5 py-12 mx-auto">
 
-      <div class="text-center mb-20">
-        <h2 class="text-gray-900 mb-4">Minhas Habilidades</h2>
+      <div class="mb-20 text-center">
+        <h2 class="mb-4 text-gray-900">Minhas Habilidades</h2>
         <div class="divider-h2">
-          <div class="bg-blue-300"></div>
+          <div></div>
         </div>
       </div>
 
-      <div class="flex flex-wrap justify-around items-start sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0">
+      <div class="flex flex-wrap items-stretch -mb-10 lg:justify-between lg:-mt-4 sm:w-1/2 lg:w-full sm:flex-col lg:flex-row sm:-m-4 md:space-y-0 sm:justify-center sm:mx-auto">
+
         <!-- FRONT END -->
-        <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+        <div class="flex flex-col items-center p-1 text-center md:w-1/5 box-skill">
           <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            class="inline-flex items-center justify-center flex-shrink-0 mb-5 rounded-full color-second-dark">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
+              class="w-20 h-20" viewBox="0 0 24 24">
               <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
             </svg>
           </div>
           <div class="flex-grow">
-            <h3 class="text-gray-900 text-2xl title-font font-semibold mb-3">Front-End</h3>
+            <h3 class="mb-3 text-2xl font-semibold text-gray-900 ">Front-End</h3>
             <p class="leading-relaxed">
             <ul class="text-lg">
               <li>HTML/CSS</li>
@@ -159,17 +266,18 @@
             </p>
           </div>
         </div>
+
         <!-- BACK END -->
-        <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+        <div class="flex flex-col items-center p-1 text-center sm:mt-4 lg:mt-0 md:w-1/5 box-skill">
           <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            class="inline-flex items-center justify-center flex-shrink-0 mb-5 rounded-full color-second-dark">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
+              class="w-20 h-20" viewBox="0 0 24 24">
               <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
             </svg>
           </div>
           <div class="flex-grow">
-            <h3 class="text-gray-900 text-2xl title-font font-semibold mb-3">Back-End</h3>
+            <h3 class="mb-3 text-2xl font-semibold text-gray-900 ">Back-End</h3>
             <p class="leading-relaxed">
             <ul class="text-lg">
               <li>PHP/Laravel</li>
@@ -180,64 +288,66 @@
             </p>
           </div>
         </div>
+
         <!-- Data Science -->
-        <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+        <div class="flex flex-col items-center p-1 text-center sm:mt-4 lg:mt-0 md:w-1/5 box-skill">
           <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            class="inline-flex items-center justify-center flex-shrink-0 mb-5 rounded-full color-second-dark">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
+              class="w-20 h-20" viewBox="0 0 24 24">
               <path d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
           <div class="flex-grow">
-            <h3 class="text-gray-900 text-2xl title-font font-semibold mb-3">Data Science</h3>
-            <p class="leading-relaxed text-xl">
-            <ul class="text-lg">
-              <li>Python e suas Libs:</li>
-              <ul>
-                <li>jupyter notebook</li>
-                <li>pandas, numpy, scikit-learn</li>
-                <li>seaborn, matplotlib, bokeh</li>
+            <h3 class="mb-3 text-2xl font-semibold text-gray-900 ">Data Science</h3>
+            <p class="text-xl leading-relaxed">
+              <ul class="text-lg">
+                <li>Python e Libs de DS:</li>
+                <ul>
+                  <li>jupyter notebook</li>
+                  <li>pandas, seaborn, scikit-learn</li>
+                </ul>
               </ul>
-            </ul>
-
             </p>
           </div>
         </div>
+
         <!-- Others -->
-        <div class="p-4 md:w-1/4 flex flex-col text-center items-center">
+        <div class="flex flex-col items-center p-1 text-center sm:mt-4 lg:mt-0 md:w-1/5 box-skill">
           <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            class="inline-flex items-center justify-center flex-shrink-0 mb-5 rounded-full color-second-dark">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
+              class="w-20 h-20" viewBox="0 0 24 24">
               <path
                 d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
               </path>
             </svg>
           </div>
           <div class="flex-grow">
-            <h3 class="text-gray-900 text-2xl title-font font-semibold mb-3">Outros</h3>
-            <p class="leading-relaxed text-xl">
-            <ul class="text-lg">
-              <li>Banco de Dados: SQL</li>
-              <li>ETL: Pentaho PDI</li>
-              <li>BI: Power BI</li>
-              <li>Versionamento: Git</li>
-            </ul>
+            <h3 class="mb-3 text-2xl font-semibold text-gray-900 ">Outros</h3>
+            <p class="text-xl leading-relaxed">
+              <ul class="text-lg">
+                <li>Banco de Dados: SQL</li>
+                <li>ETL: Pentaho PDI</li>
+                <li>BI: Power BI</li>
+                <li>Versionamento: Git</li>
+              </ul>
             </p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <section class="text-gray-600 body-font" id="section1">
+  <!--============ EDUCATION ============-->
+  <section class="text-gray-600 body-font" id="education">
     <div class="container px-5 py-12 mx-auto">
 
-      <div class="text-center mb-20">
-        <h2 class="text-gray-900 mb-4">Educação</h2>
+      <div class="mb-12 text-center">
+        <h2 class="mb-4 text-gray-900">Educação</h2>
         <div class="divider-h2">
-          <div class="bg-blue-300"></div>
+          <div></div>
         </div>
       </div>
 
@@ -272,18 +382,21 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
   </section>
 
-  <section class="text-gray-600 body-font" id="section1">
+
+
+  <!--============ EXPERIENCE ============-->
+  <section class="text-gray-600 body-font" id="experience">
     <div class="container px-5 py-12 mx-auto">
 
-      <div class="text-center mb-20">
-        <h2 class="text-gray-900 mb-4">Experiência</h2>
+      <div class="mb-12 text-center">
+        <h2 class="mb-4 text-gray-900">Experiência</h2>
         <div class="divider-h2">
-          <div class="bg-blue-300"></div>
+          <div></div>
         </div>
       </div>
 
@@ -303,109 +416,221 @@
             </div>
           </div>
         </div>
-        
+
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section class="text-gray-600 body-font" id="section2">
+  <!--============ PROJECTS ============-->
+  <section class="text-gray-600 body-font" id="projects">
     <div class="container px-5 py-12 mx-auto">
 
-      <div class="text-center mb-20">
-        <h2 class="text-gray-900 mb-4">Projetos</h2>
+      <div class="mb-20 text-center">
+        <h2 class="mb-4 text-gray-900">Projetos</h2>
         <div class="divider-h2">
-          <div class="bg-blue-300"></div>
+          <div></div>
         </div>
       </div>
 
-      <div class="flex flex-wrap -m-4">
+      <div class="flex flex-wrap md:justify-around">
+
         <!-- VUE FOR ITERATE -->
-        <div class="p-4 md:w-1/3 font-roboto" v-for="project in projects">
-          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+        <div class="p-4 w-30cents font-roboto" v-for="project in projects">
+          <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+            <img class="object-cover object-center w-full lg:h-48 md:h-36"
               :src="'./assets/images/projects/'+ project.img_src" alt="blog">
             <div class="p-6">
-              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 flex flex-wrap">
+              <h2 class="flex flex-wrap mb-1 text-xs font-medium tracking-widest text-gray-400 ">
                 <span v-for="tag in project.tags">
                   {{ tag }} &nbsp;
                 </span>
               </h2>
-              <span class="flex">
+              <div class="flex flex-wrap">
+                <h1 class="mb-3 text-lg font-medium text-gray-900 ">{{ project.name }}</h1>
                 <a :href="project.git"><img src="assets/images/icons/git-icon-black.svg"
-                    class="w-5 hover:opacity-20" /></a>
-                <a :href="project.link"><img src="assets/images/icons/link-ext.svg" class="w-5 hover:opacity-20" /></a>
-              </span>
-              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ project.name }}</h1>
-              <p class="leading-relaxed mb-3">{{ project.desc }}</p>
+                  class="w-5 pt-1 mx-2 hover:opacity-20" /></a>
+                <a :href="project.link"><img src="assets/images/icons/link-ext.svg" class="w-5 pt-1 hover:opacity-20" /></a>
+              </div>
+              <p class="mb-3 leading-relaxed">{{ project.desc }}</p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section class="text-gray-600 font-roboto relative" id="section3">
+  <!--============ PRICING ============-->
 
-    <div class="text-center mb-20">
-      <h2 class="text-gray-900 mb-4">Contato</h2>
+  <section id="pricing" class="mb-10">
+
+    <div class="mb-20 text-center">
+      <h2 class="mb-4 text-gray-900">Freelancer - Preços</h2>
       <div class="divider-h2">
-        <div class="bg-blue-300"></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="flex sm:flex-col lg:flex-row sm:justify-evenly lg:items-center lg:mx-auto">
+
+        <!-- CARD 1 -->
+        <div class="mx-auto lg:mx-0 elementor-price-table sm:w-1/2 lg:w-1/4">
+
+          <div class="elementor-price-table__header">
+            <h3 class="elementor-price-table__heading">One Page</h3>
+          </div>
+
+          <div class="elementor-price-table__price">
+            <span class="elementor-price-table__currency">R$</span>
+            <span class="elementor-price-table__integer-part">300</span>
+            <!-- Style necessario para ter o height -->
+            <span class="elementor-price-table__period elementor-typo-excluded" style="content: ' '; height: 22px;"></span>
+          </div>
+
+          <ul class="elementor-price-table__features-list">
+
+            <li class="elementor-repeater">
+              <div class="elementor-price-table__feature-inner">
+                <i aria-hidden="true" class="far fa-check-circle"></i>
+                <span>Site Institucionais</span>
+              </div>
+            </li>
+
+            <li class="elementor-repeater">
+              <div class="elementor-price-table__feature-inner">
+                <i aria-hidden="true" class="far fa-check-circle"></i>
+                <span>Landing Page</span>
+              </div>
+            </li>
+
+            <!-- <li class="elementor-repeater">
+                <div class="elementor-price-table__feature-inner">
+                  <i aria-hidden="true" class="far fa-check-circle"></i>
+                  <span>Produção de ebook e infográfico</span>
+                </div>
+            </li> -->
+
+          </ul>
+
+          <div class="elementor-price-table__footer">
+            <a class="elementor-price-table__button elementor-button elementor-size-md elementor-animation-grow"
+            href="https://api.whatsapp.com/send?phone=5521997874198&#038;text=Ol%C3%A1%20Thay!%20Gostaria%20do%20seu%20servi%C3%A7os%20de%20produ%C3%A7%C3%A3o%20de%20conte%C3%BAdo!" target="_blank">Contrate agora</a>
+            <div class="elementor-price-table__additional_info">*(Opcional) Recorrência de R$ 30,00 para manutençâo</div>
+          </div>
+
+      </div>
+
+      <!-- card 2 -->
+      <div class="sm:mx-auto lg:mx-0 elementor-price-table sm:mt-5 lg:mt-0 sm:w-1/2 lg:w-1/4">
+
+        <div class="elementor-price-table__header">
+          <h3 class="elementor-price-table__heading">Multi Pages</h3>
+        </div>
+
+        <div class="elementor-price-table__price">
+          <span class="elementor-price-table__currency">R$</span>
+          <span class="elementor-price-table__integer-part">600</span>
+          <span class="elementor-price-table__period elementor-typo-excluded">a partir*</span>
+        </div>
+
+        <ul class="elementor-price-table__features-list">
+
+          <li class="elementor-repeater">
+            <div class="elementor-price-table__feature-inner">
+              <i aria-hidden="true" class="far fa-check-circle"></i>
+              <span>Blog</span>
+            </div>
+          </li>
+
+          <li class="elementor-repeater">
+            <div class="elementor-price-table__feature-inner">
+              <i aria-hidden="true" class="far fa-check-circle"></i>
+              <span>Otimização em SEO</span>
+            </div>
+          </li>
+
+          <!-- <li class="elementor-repeater">
+              <div class="elementor-price-table__feature-inner">
+                <i aria-hidden="true" class="far fa-check-circle"></i>
+                <span>Produção de ebook e infográfico</span>
+              </div>
+          </li> -->
+
+        </ul>
+
+        <div class="elementor-price-table__footer">
+          <a class="elementor-price-table__button elementor-button elementor-size-md elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5521997874198&#038;text=Ol%C3%A1%20Thay!%20Gostaria%20do%20seu%20servi%C3%A7os%20de%20produ%C3%A7%C3%A3o%20de%20conte%C3%BAdo!" target="_blank">Contrate agora</a>
+          <div class="elementor-price-table__additional_info">*(Opcional) Recorrência de R$ 30,00 para manutençâo</div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+  </section>
+
+  <!--============ CONTACT ============-->
+  <section class="relative text-gray-600 font-roboto" id="contact">
+
+    <div class="mb-20 text-center">
+      <h2 class="mb-4 text-gray-900">Contato</h2>
+      <div class="divider-h2">
+        <div></div>
       </div>
     </div>
 
     <div class="flex justify-center">
       <a href="https://www.linkedin.com/in/rafael-m-de-assis/"><img src="assets/images/icons/linkedin.svg"
-          class="w-10 hover:opacity-20 mx-5" /></a>
+          class="w-10 mx-5 hover:opacity-20" /></a>
       <a href="https://www.kaggle.com/rafanthx13"><img src="assets/images/icons/kaggle.png"
-          class="w-10 hover:opacity-20 mx-5" /></a>
+          class="w-10 mx-5 hover:opacity-20" /></a>
       <a href="https://github.com/rafanthx13"><img src="assets/images/icons/github.svg"
-          class="w-10 hover:opacity-20 mx-5" /></a>
+          class="w-10 mx-5 hover:opacity-20" /></a>
       <a href="mailto:rafaassis15@gmail.com"><img src="assets/images/icons/gmail.svg"
-          class="w-10 hover:opacity-20 mx-5 " /></a>
+          class="w-10 mx-5 hover:opacity-20 " /></a>
       <a
         href="https://api.whatsapp.com/send?phone=5534993166595&text=Ola%2C%20gostaria%20de%20falar%20com%20Rafael%20Assis">
-        <img src="assets/images/icons/whatsapp.svg" class="hover:opacity-20 w-10 mx-5 " />
+        <img src="assets/images/icons/whatsapp.svg" class="w-10 mx-5 hover:opacity-20 " />
       </a>
     </div>
 
-    <!-- ADRES IN MOBILE -->
-    <div class="bg-white relative py-6 rounded shadow-lg m-auto visible md:hidden w-3/4 sm:w-1/2 ">
-      <div class="px-6 flex flex-col flex-wrap justify-around">
+    <!-- ADDRESS IN MOBILE -->
+    <div class="relative visible w-3/4 py-6 m-auto bg-white rounded shadow-lg md:hidden sm:w-1/2 sm:mt-2 lg:mt-0">
+      <div class="flex flex-col flex-wrap justify-around px-6 ">
         <div>
-          <span class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">ENDEREÇO</span>
+          <span class="mt-3 text-xs font-semibold tracking-widest text-gray-900 ">ENDEREÇO</span>
           <p class="leading-relaxed">Eunápolis/Bahia/Brazil</p>
         </div>
         <div>
-          <span class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">EMAIL</span>
-          <a class="text-indigo-500 leading-relaxed">rafaassis15@email.com</a>
+          <span class="mt-3 text-xs font-semibold tracking-widest text-gray-900 ">EMAIL</span>
+          <p><a class="leading-relaxed color-second-light">rafaassis15@email.com</a></p>
         </div>
         <div>
-          <span class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-3">TELEFONE</span>
+          <span class="mt-3 text-xs font-semibold tracking-widest text-gray-900 ">TELEFONE</span>
           <p class="leading-relaxed">(34) 9 9316-6595</p>
         </div>
       </div>
     </div>
 
 
-    <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap ">
+    <div class="container flex flex-wrap px-5 py-12 mx-auto sm:flex-nowrap ">
       <div
-        class="lg:h-96 md:h-64 lg:w-sreen md:w-screen bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        class="relative flex items-end justify-start p-10 overflow-hidden bg-gray-300 rounded-lg lg:h-96 md:h-64 lg:w-sreen md:w-screen sm:pr-24 lg:pr-0">
         <object width="100%" height="100%" frameborder="0" class="absolute inset-0" scrolling="no" marginheight="0"
           marginwidth="0"
           data="https://www.openstreetmap.org/export/embed.html?bbox=-40.64117431640626%2C-17.125042196260953%2C-38.53729248046876%2C-15.623036831528252&amp;layer=mapnik&amp;marker=-16.375485785675078%2C-39.5892333984375"></object>
 
         <!-- ADRESS IN DESKTOP hidden md:block -->
-        <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md invisible md:visible">
-          <div class="lg:w-1/2 px-6">
-            <span class="title-font font-semibold text-gray-900 tracking-widest text-xs">ENDEREÇO</span>
+        <div class="relative flex flex-wrap invisible py-6 bg-white rounded shadow-md md:visible">
+          <div class="px-6 lg:w-1/2">
+            <span class="text-xs font-semibold tracking-widest text-gray-900 ">ENDEREÇO</span>
             <p class="mt-1">Eunápolis/Bahia/Brazil</p>
           </div>
-          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-            <span class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</span>
-            <a class="text-indigo-500 leading-relaxed">rafaassis15@email.com</a>
-            <span class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">TELEFONE</span>
+          <div class="px-6 mt-4 lg:w-1/2 lg:mt-0">
+            <span class="text-xs font-semibold tracking-widest text-gray-900 ">EMAIL</span>
+            <p><a class="leading-relaxed text-gray-900">rafaassis15@email.com</a></p>
+            <span class="mt-4 text-xs font-semibold tracking-widest text-gray-900 ">TELEFONE</span>
             <p class="leading-relaxed">(34) 9 9316-6595</p>
           </div>
         </div>
@@ -415,14 +640,14 @@
 
   </section>
 
-  <!-- FOOTER -->
+  <!--============ FOOTER ============-->
   <footer class="text-gray-600 font-roboto">
-    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    <div class="container flex flex-col items-center px-5 py-8 mx-auto sm:flex-row">
+      <a class="flex items-center justify-center font-medium text-gray-900 md:justify-start">
         <img src="./assets/images/favicon/android-chrome-192x192.png" alt="" class="w-10 p-0 rounded-full">
       </a>
-      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 —
-      <p class="text-gray-600 ml-1">Rafael Morais de Assis</p>
+      <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">© 2021 —
+      <p class="ml-1 text-gray-600">Rafael Morais de Assis</p>
       </p>
     </div>
   </footer>
@@ -450,7 +675,7 @@
           desc: 'API Rest para ser consumida por LogPriceApp'
         },
         {
-          name: 'Portifolio de Projetos de DataScience da Kaggle',
+          name: 'Portifolio de DataScience (Kaggle)',
           git: 'https://github.com/rafanthx13/ds-portifolio',
           link: 'https://github.com/rafanthx13/ds-portifolio',
           tags: ['DataScience', 'Python', 'Kaggle', 'MachineLearning', 'EDA'],
@@ -466,7 +691,7 @@
           desc: 'Avaliar comentários como positivo ou negativos através de um modelo de Intelgencia Artificial'
         },
         {
-          name: 'Servidor do Avaliador de Comentários',
+          name: 'Servidor do Avaliador de Coment.',
           git: 'https://rafanthx13.github.io/comments-rating-app/',
           link: '',
           tags: ['Python', 'Flask', 'Pytorch', 'RNN-LSTM'],
@@ -474,7 +699,7 @@
           desc: 'Servidor Flask para prover o acesso ao modelo de Machine Learning para classificar comentários'
         },
         {
-          name: 'Gerardor de Index de MarkDown',
+          name: 'Gerarador de Index de MarkDown',
           git: 'https://github.com/rafanthx13/toc-generator',
           link: 'https://rafanthx13.github.io/md-toc-generator/',
           tags: ['WebPage'],
@@ -525,12 +750,16 @@
     };
 
     new Vue({
-      el: '#section2',
+      el: '#projects',
       data: data
     });
   </script>
-  
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+
 
 </body>
 
 </html>
+
+

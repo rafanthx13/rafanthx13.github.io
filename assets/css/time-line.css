@@ -13,7 +13,7 @@
 	left: 50%;
 	width: 3px;
 	height: 100%;
-	background: rgb(59, 130, 246);
+	background: var(--second-color);
 }
 
 @media (max-width: 720px) {
@@ -81,7 +81,7 @@
 	right: auto;
 	left: 100%;
 	border-right: none;
-	border-left: 6px solid rgb(59, 130, 246);
+	border-left: 6px solid var(--second-color);
 }
 
 @media (max-width: 720px) {
@@ -95,7 +95,7 @@
 		left: auto;
 		right: 100%;
 		border-left: none;
-		border-right: 6px solid rgb(59, 130, 246);
+		border-right: 6px solid var(--second-color);
 	}
 
 }
@@ -109,7 +109,7 @@
 	height: 26px;
 	line-height: 26px;
 	text-align: center;
-	background: rgb(59, 130, 246);
+	background: var(--second-color);
 	border-radius: 26px;
 	-moz-border-radius: 26px;
 	-webkit-border-radius: 26px;
@@ -192,7 +192,7 @@
 	height: 0;
 	width: 0;
 	border: 6px solid transparent;
-	border-right: 6px solid rgb(59, 130, 246);
+	border-right: 6px solid var(--second-color);
 }
 
 @media (max-width: 720px) {
@@ -243,7 +243,7 @@
 	padding: 1px 5px;
 	display: inline-block;
 	vertical-align: top;
-	background: rgb(59, 130, 246);
+	background: var(--second-color);
 	font-size: 13px;
 	color: #fefefe;
 	border-radius: 2px;
@@ -319,7 +319,7 @@ a.category:hover {
   bottom: -45px;
   width: 62px;
   height: 62px;
-  background: rgb(59, 130, 246);
+  background: var(--second-color);
   text-align: center;
   line-height: 62px;
   padding-left: 1px;

@@ -6,13 +6,8 @@ Sempre deixar com essa mesma organizaçAo de pastas, porque se vocÊ tiver que r
 
 English Version fica pro final.
 
-## TODO
-
-+ Organizar todas as pastas /assets [x]
-+ English Version
-+ Organizar CSS em um único arquivo bem organizado
-+ Melhorar Tailwind
-+ Ver o modo mobile
+Quick
++ Column no nav
 
 ## Documentation Fron End
 
@@ -55,3 +50,19 @@ https://freeicons.io/filter/popular/all/link
 + Number 8 - Strane
 +  - Hover on image
 +  - Up in cellphone
+
+Hamburgues
+7 - mdcard-orange-many-color
+
+**NEW TODO**
++ OG [X]
++ Schema Colors (like Tailwind Use, :root and serve in other css files)
+  - Saturaçâo [x]
++ Seçâo de preço
++ Loader [X]
++ Melhorar título (maior/colorido) [x]
++ Por mais cores (background/svg-elementor) [x]
++ Deletar Imagesn de projetos nâo usados e arquivos nao usados [x]
++ Mobile / MultiTelas [x]
++ EN PAGE [last]
+
