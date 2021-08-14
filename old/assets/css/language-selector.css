@@ -92,6 +92,17 @@
     background-image: url(https://www.countryflags.io/us/flat/32.png);
 }
 
+.nav-mobile.br:before {
+  content: '';
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .nav-mobile.en:before {
   content: '';
   display: inline-block;
