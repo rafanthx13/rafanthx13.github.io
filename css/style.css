@@ -633,9 +633,7 @@ ul.footer_social li a i:hover {
 	text-align: center;
   	padding-top: 240px;
   	padding-bottom: 215px;
-	/* background: url(../images/bg-back-ground.png) top center no-repeat; */
-	background: rgb(105,124,142);
-	background: linear-gradient(180deg, rgba(105,124,142,1) 39%, rgba(246,203,159,1) 100%);
+	background: linear-gradient(180deg, rgba(246,203,159,1) 20%, rgba(105,124,142,1) 30% );
 	background-size: cover;
 }
 
