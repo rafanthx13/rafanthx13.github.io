@@ -632,7 +632,7 @@ ul.footer_social li a i:hover {
 	position: relative;
 	text-align: center;
   	padding-top: 240px;
-  	padding-bottom: 215px;
+  	/* padding-bottom: 215px; */ /* Espaçamento do rosa pro azul */
 	background: linear-gradient(180deg, rgba(246,203,159,1) 20%, rgba(105,124,142,1) 30% );
 	background-size: cover;
 }
